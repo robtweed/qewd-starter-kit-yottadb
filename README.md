@@ -345,19 +345,17 @@ you use (YottaDB, Cach&eacute; or IRIS).  The only difference will be in file pa
 
 So you can now use the following tutorials:
 
-- [this older tutorial](https://github.com/robtweed/qewd-baseline/blob/master/INTERACTIVE.md)
-explains how to develop interactive applications using the now deprecated *ewd-client* browser module.
-This is, nevertheless, a useful tutorial to take as it will help to explain the basics of how
+- [this tutorial](https://github.com/robtweed/qewd-baseline/blob/master/INTERACTIVE.md)
+explains how to develop interactive applications using the *qewd-client* browser module.
+This is a useful tutorial to take as it will help to explain the basics of how
 QEWD supports interactive, WebSocket message-based applications, and how you handle those messages
-in your browser's logic.  Your version of QEWD includes the *ewd-client* module, and the newer
-[*qewd-client*](https://github.com/robtweed/qewd-client)
- browser module is backward-compatible with *ewd-client*.
+in your browser's logic.  Note that your version of QEWD includes the *qewd-client* module.
 
-- to develop a more modern interactive WebSocket application, whose front-end uses the 
-newer *qewd-client* module and the 
+- once familiar with the basics covered in the tutorial above, 
+can can find out how to develop a modern interactive WebSocket application whose front-end uses the  
 [*mg-webComponents*](https://github.com/robtweed/mg-webComponents) framework
-that has also been automatically installed in your QEWD system, 
-[see this document, starting at the *mg-webCOmponents Framework* section](https://github.com/robtweed/qewd-microservices-examples/blob/master/WINDOWS-IRIS-2.md#the-mg-webcomponents-framework)
+that has also been automatically installed in your QEWD system.
+[See this document, starting at the *mg-webCOmponents Framework* section](https://github.com/robtweed/qewd-microservices-examples/blob/master/WINDOWS-IRIS-2.md#the-mg-webcomponents-framework)
 
 
 - to develop REST APIs, get started with [this document](./REST.md)
