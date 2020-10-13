@@ -1,7 +1,7 @@
 # Installing QEWD with YottaDB on Ubuntu Linux
  
 Rob Tweed <rtweed@mgateway.com>  
-10 October 2020, M/Gateway Developments Ltd [http://www.mgateway.com](http://www.mgateway.com)  
+13 October 2020, M/Gateway Developments Ltd [http://www.mgateway.com](http://www.mgateway.com)  
 
 Twitter: @rtweed
 
@@ -21,7 +21,7 @@ Clone this repository to your Linux system.  For example, to clone it
 to the folder ~/qewd on your system:
 
         cd ~
-        git clone https://github.com/robtweed/qewd-yottadb qewd
+        git clone https://github.com/robtweed/qewd-starter-kit-yottadb qewd
 
 The instructions in this document will assume you've cloned it
 to the ~/qewd folder.  Adjust the paths in the examples appropriately
