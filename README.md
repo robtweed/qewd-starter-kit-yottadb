@@ -361,37 +361,13 @@ that has also been automatically installed in your QEWD system.
 - to develop REST APIs, get started with [this document](./REST.md)
 
 - to find out more about how QEWD abstracts the YottaDB database as persistent 
-JSON objects, see the [QEWD-JSdb documentation](https://github.com/robtweed/qewd-jsdb).
-You can try the
-QEWD-JSdb REPL by using the copy of the *jsdb_shell.js* module that is included in the Node.js REPL:
+JSON objects, you can try out the 
+[QEWD-JSdb REPL-based tutorial](./REPL.md) after which you can also learn about
+the other NoSQL database models supported by QEWD-JSdb:
 
-        cd ~/qewd
-        node
-
-You'll see the Node.js REPL shell response:
-
-        Welcome to Node.js v14.13.1.
-        Type ".help" for more information.
-        > 
-
-Now type:
-
-        > var jsdb = require('./jsdb_shell')
-
-Now you can try out any of the QEWD-JSdb APIs.  For example, remember that *test* global we
-created when installing and testing YottaDB?  Try this:
-
-        > var doc = jsdb.use('test')
-        > doc.getDocument()
-
-You should see:
-
-        { foo: "bar" }
-
-If you have an existing YottaDB system, you can use QEWD-JSdb to abstract any of your existing Global Storage.
-
-To find out more about QEWD-JSdb, you can try out the 
-[QEWD-JSdb REPL-based tutorial](https://github.com/robtweed/qewd-jsdb/blob/master/REPL.md#getting-started-with-qewd-jsdb).
+- [Lists](./LISTS.md)
+- [Key/Object Store](./KVS.md)
+- [Persistent XML/JSON DOM](./DOM.md)
 
 
 ## License
